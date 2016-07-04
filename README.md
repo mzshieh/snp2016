@@ -3,6 +3,11 @@
 +   Instructor: [Dr. Min-Zheng Shieh](mailto:mzshieh@nctu.edu.tw)
 +   Teaching Assistants: [Mr. Chun-Kai Chen](mailto:wingemerald@gmail.com), [Mr. Cheng Sun](s2821d3721@gmail.com)
 
+## Course Objectives
+
++   Learn the fundamentals of imperative programming
++   Learn the nature of computers
+
 ## Textbooks
 
 +   Scratch: [Creative Computing Learner Workbook](http://scratched.gse.harvard.edu/guide/files/CreativeComputing20140820_LearnerWorkbook.pdf)
