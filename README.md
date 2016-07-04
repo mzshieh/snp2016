@@ -14,6 +14,10 @@
 +   Ball game
     +   Use your own ball to push the opponent's ball out of the boundary.
     +   Design your own program to control your ball by your mobilephone via IoTtalk.
+    +   Mock-ups
+        +   [Easy](http://www.cs.nctu.edu.tw/~mzshieh/snp16summer/project/loser.html)
+        +   [Medium](http://www.cs.nctu.edu.tw/~mzshieh/snp16summer/project/softer.html)
+        +   [Hard](http://www.cs.nctu.edu.tw/~mzshieh/snp16summer/project/center_camper.html)
 
 ## Grading Policy
 
