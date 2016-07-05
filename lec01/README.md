@@ -26,7 +26,7 @@
 +   Design journals
     +   [Paper](http://bit.ly/designjournal-paper)
     +   [Blog](http://bit.ly/designjournal-blog)
-+   [Scratch Cards](https://scratch.mit.edu/community_guidelines)
++   [Scratch Cards](https://scratch.mit.edu/info/cards)
     +   Cheat(?) sheets
 +   [Scratch Surprise](https://scratch.mit.edu/studios/460431/)
     +   Sprite and Stage
@@ -47,4 +47,4 @@
     +   [Example 3](http://scratch.mit.edu/studios/138297)
     +   [Example 4](http://scratch.mit.edu/studios/138298)
 +   [Debug it!](http://scratch.mit.edu/studios/475483)
-+   [About me Studeo](http://scratch.mit.edu/studios/475470)
++   [About my Studio](http://scratch.mit.edu/studios/475470)
