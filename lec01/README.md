@@ -36,15 +36,3 @@
         +   Value
         +   Predicate
         +   Flow control
-+   Scratch Studio
-    +   Add a project to a studio
-    +   Post comments to other Scratch projects
-+   [Step-by-Step Studio](http://scratch.mit.edu/studios/475476)
-+   [10 Blocks Studio](http://scratch.mit.edu/studios/475480)
-+   My Studio
-    +   [Example 1](http://scratch.mit.edu/studios/211580)
-    +   [Example 2](http://scratch.mit.edu/studios/138296)
-    +   [Example 3](http://scratch.mit.edu/studios/138297)
-    +   [Example 4](http://scratch.mit.edu/studios/138298)
-+   [Debug it!](http://scratch.mit.edu/studios/475483)
-+   [About my Studio](http://scratch.mit.edu/studios/475470)
