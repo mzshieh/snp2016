@@ -1,4 +1,11 @@
-## Lecture 2: Explore More
+## Lecture 2
+
+### Review
+
++   [Slide (PDF)](snp_base.pdf)
++   [Slide (PowerPoint)](snp_base.pptx)
+
+### Explore More
 
 +   Scratch Studio
     +   Add a project to a studio
