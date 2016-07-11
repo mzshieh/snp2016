@@ -2,25 +2,8 @@
 
 ### Review
 
-+   [Slide (PDF)]
-+   [Slide (PowerPoint)]
-+   Keywords
-    +   Sequence
-    +   Sprite
-    +   Motion
-    +   Looks
-    +   Sound
-    +   Costume
-    +   Backdrop
-    +   Tips Window
-    +   Remix
-+   Some tips
-    +   How to use color picker
-+   Some limitation of Scratch
-    +   Unable to read the color of a certain point
-        +   Hard to fill a region with a certain color
-    +   You cannot change the shape of the pen
-    +   Unable to make custom operation block
++   [Slide (PDF)](snp_lec03.pdf)
++   [Slide (PowerPoint)](snp_lec03.pptx)
 +   [Debug it!](http://scratch.mit.edu/studios/475483): [Instructor's solution](https://scratch.mit.edu/studios/2923436/)
     +   [Debug 1.1](https://scratch.mit.edu/projects/10437040/): 希望點下綠旗後，兩隻都在跳舞。可是現在的程式只有一隻會跳，該怎麼辦？
     +   [Debug 1.2](https://scratch.mit.edu/projects/10437249/): 希望按下綠旗後，貓咪能從舞台左邊走到右邊。可是按下去第一次會動，第二次以後就不會動了，該怎麼辦？
@@ -38,7 +21,8 @@
         +   Drum and instructment
     +   Parallelism
         +   Oberservation: "When key pressed" versus "When this sprite clicked"
-        +   [Corresponding studio](https://scratch.mit.edu/projects/115950064/)
+            +   See this [project](https://scratch.mit.edu/projects/115950064/)
+            +   Race condition
 +   [Orange Square, Purple Circle](https://scratch.mit.edu/projects/115908969/)
     +   [The official studio](https://scratch.mit.edu/studios/475527/)
     +   `bitmap` versus `vector`
@@ -56,7 +40,7 @@
     +   [Debug 2.4](https://scratch.mit.edu/projects/23267140/): 希望花開完了要停下來，該怎麼辦？
     +   [Debug 2.5](https://scratch.mit.edu/projects/23267245/): 希望生日快樂歌唱完才提示可以吹蠟燭了。
 
-### Animation
+### Stories
 
 +   [Characters](https://scratch.mit.edu/projects/115946864/)
     +   Implement small jumps, big jumps, and custom jumps
@@ -66,7 +50,8 @@
     +   Press the left arrow to move to the left
     +   Press the right arrow to move to the right
     +   Press the space bar to jump
-    +   Modify this project to make Scratch Cat jumping in Mario's style 
+    +   Modify this project to make Scratch Cat jumping in Mario's style
+        +   [Reference](https://wiki.scratch.mit.edu/wiki/When_()_Key_Pressed_(block))
 +   [Debug it!](https://scratch.mit.edu/studios/475554/)
     +   [Debug 3.1](https://scratch.mit.edu/projects/24269007/): Scratch Cat 教 Gobo 喵喵叫，可是輪到 Gobo 練習時，他沒有喵喵叫，該怎麼辦？
     +   [Debug 3.2](https://scratch.mit.edu/projects/24269046/): 想要設計成輸入一個數字讓 Scratch Cat 數，但他現在每次都是數到 10 ，該怎麼辦？ 
@@ -84,8 +69,12 @@
     +   Draw a crown, then several branches, then a trunk.
         +   [Example](https://scratch.mit.edu/projects/115838437/)
 +   Modularization
+    +   Decompose the task into subtasks
+        +   More readable
+        +   Reusable
 +   State
     +   Variable
+    +   List
 +   Precondition
 +   Postcondition
     +   Effect
@@ -104,4 +93,4 @@
         +   [Magically non-recursive tree](https://scratch.mit.edu/projects/115834535/)
 +   Task
     +   Draw a snowflake
-    +   [Draw a Koch snowflake](https://en.wikipedia.org/wiki/Koch_snowflake)
+    +   Optional: [Draw a Koch snowflake](https://en.wikipedia.org/wiki/Koch_snowflake)
