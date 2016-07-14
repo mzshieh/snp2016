@@ -4,16 +4,11 @@
 
 +   [Slide (PDF)](snp_lec04.pdf)
 +   [Slide (PowerPoint)](snp_lec04.pptx)
-+   Variable
-+   List
-+   Parallelism
-+   `bitmap` versus `vector`
-+   Infinite loop caused by bug
+
 +   Event implementation
     +   [Reference](https://wiki.scratch.mit.edu/wiki/When_()_Key_Pressed_(block))
++   Infinite loops may be caused by bug
 +   Infinite loops may be useful
-+   Broadcast -- User defined events and triggers
-
 +   [Debug it!](https://scratch.mit.edu/studios/475539/) [Instructor's solution](https://scratch.mit.edu/studios/2923436/)
     +   [Debug 2.1](https://scratch.mit.edu/projects/23266426/): 希望按下 Scratch Cat 後他會隨鼓聲跳舞，但他沒跳，該怎麼辦？
     +   [Debug 2.2](https://scratch.mit.edu/projects/24268476/): 希望 Nano 被碰到的時候也要說話，該怎麼辦？
