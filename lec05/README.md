@@ -64,16 +64,16 @@
 +   [Pong](https://scratch.mit.edu/projects/10128515/)
 +   [Scrolling](https://scratch.mit.edu/projects/22162012/)
 +   [Fish Chomp](https://scratch.mit.edu/projects/10859244/)
-+   Puzzles
-    +   Whenever you press the B key, the sprite gets a little bigger. Whenever you press the S key, the sprite gets a little smaller.
-    +   Whenever the sprite hears a loud sound, it changes color.
-    +   Whenever the sprite is in the top 25% of the screen, it says "I like it up here."
-    +   When the sprite touches something blue, it plays a high note. When the sprite touches something red, it plays a low note.
-    +   Whenever two sprites collide, one of them says: "Excuse me.”
-    +   Whenever the cat sprite gets near the dog sprite, the dog turns and runs from the cat.
-    +   Whenever you click on the background, a flower appears at that spot.
-    +   Whenever you click on a sprite, all other sprites do a dance.
-    +   Whenever you move the mouse-pointer, the sprite follows but doesn't touch the mouse-pointer.
++   Puzzles 請準備幾個角色
+    +   P1: 當你按下 B 時，角色變大一點。當你按下 S 時，角色變小一點。
+    +   P2: 當角色透過網路攝影機看到的畫面變化很大時，換個顏色。
+    +   P3: 當角色移動到畫面上方 25% 的區域，會說他喜歡上面。
+    +   P4: 當角色碰到藍色時，發出一個高音。當角色碰到紅色時，發出一個低音。
+    +   P5: 當角色碰到另外一個角色時，其中一個說「不好意思」。
+    +   P6: 當貓角色靠近狗角色時，狗跑離貓。
+    +   P7: 當滑鼠點擊一下時，在那邊畫朵花。
+    +   P8: 當你點擊一個角色時，其他的角色就跳舞。
+    +   P9: 當你移動滑鼠時，角色追著滑鼠跑，但不可以碰到滑鼠。
 +   [Debug It!](https://scratch.mit.edu/studios/475634/)
     +   [Debug 4.1](https://scratch.mit.edu/projects/24271192/): Scratch Cat 只能撿起筆記型電腦到 Inventory ，請修改程式讓他可以撿起其他東西。
     +   [Debug 4.2](https://scratch.mit.edu/projects/24271303/): 請改到讓 Scratch Cat 碰到黃色 Gobo 時加 10 分，碰到粉紅 Gobo 時減 10 分。
@@ -89,6 +89,7 @@
 +   Upload your Scratch project to [ScratchX](http://scratchx.org/)
 +   Experimental blocks
     +   Speech
+        +   [Instructor's sample project](speech_number.sbx)
     +   Internet
     +   Hardware
         +   Arduino
