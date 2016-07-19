@@ -2,9 +2,6 @@
 
 ### Review
 
-+   [Slide (PDF)](snp_lec05.pdf)
-+   [Slide (PowerPoint)](snp_lec05.pptx)
-
 +   Built-in events do more
     +   Delay
     +   Block
@@ -51,15 +48,15 @@
                     +   Set pen color
                     +   Set pen size
                     +   Pen up
++   Task
+    +   Draw a snowflake
+    +   Optional: [Draw a Koch snowflake](https://en.wikipedia.org/wiki/Koch_snowflake)
 +   Decomposition
     +   Divide and conquer
     +   Incremental
         +   Example: [Insertion sort](https://scratch.mit.edu/projects/116187770/)
         +   Loop invariants
             +   In iteration m, the first m items are sorted.
-+   Task
-    +   Draw a snowflake
-    +   Optional: [Draw a Koch snowflake](https://en.wikipedia.org/wiki/Koch_snowflake)
 
 ### Game
 
