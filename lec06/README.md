@@ -56,3 +56,4 @@
         +   額外要求：讓畫面上有 10 顆球在飛。
         +   Hint: Clone, 分身。
     +   [Debug 4.5](https://scratch.mit.edu/projects/24271560/): 請修改成不會穿過綠色怪物的版本。
++   Design Debug It!
