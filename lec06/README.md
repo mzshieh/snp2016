@@ -1,4 +1,4 @@
-## Lecture 5
+## Lecture 6
 
 ### Review
 
