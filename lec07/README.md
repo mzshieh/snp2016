@@ -2,14 +2,40 @@
 
 ###Introduction to Python
 
-+   What Is Programming?
++   What Is (Imperative) Programming?
+    +   A sequence of instructions
+    +   [Scratch](https://scratch.mit.edu)
 +   What Is Python?
+    +   A programming language
+        +   Python 2 or 3?
+    +   The interpreter
+    +   The best first language to learn (According to the textbook author)
+        +   However, in this course we started from Scratch.
 +   Programmers Don't Need to Know Much Math
+    +   Most programming does not require math beyond basic arithmetic.
 +   Programming Is a Creative Activity
 +   Downloading and Installing Python
+    +   [Official Website](https://www.python.org/)
+    +   Download Python 3
+    +   Optional task: install python to your own computer
+        +   All computers in the classroom are ready for use. 
 +   The Interactive Shell
+    +   Run `python`
+    +   Run IDLE
 +   How to Find Help
+    +   Search engine
+    +   Stackoverflow
 +   Asking Smart Programming Questions
+    +   解釋你想要做甚麼，不只是說你做了甚麼。能幫你的人才知道你有沒有走錯路。
+    +   明確的指出甚麼地方有問題。比如說一開始就出錯，或是做了甚麼才出錯。
+    +   將完整的錯誤訊息以及程式碼貼出。
+        +   利用 [pastebin](http://pastebin.com/) 或 [gist](http://gist.github.com/) 來貼
+    +   描述一下你已經做過哪些嘗試。代表你已經花了點力氣研究到底是怎麼一回事。
+        +   這是有點關鍵。
+    +   列出使用的 Python 版本以及開發環境。
+        +   Python 2 跟 Python 3 有相當差異，有很多套件可能因為平台而有所不同。
+    +   如果是改完部分 code 之後才產生的問題，請明確描述改了甚麼。
+    +   給出可以重現問題的情境，前提盡量清楚。
 
 ### Python Basics
 
@@ -69,7 +95,7 @@
 
 +   Keyboard
     +   Type
-        +   `pyautogui.typewrite(text)`
+        +   `pyautogui.typewrite(text,delay)`
     +   Press
         +   `pyautogui.press(key)`
         +   [Key table](https://automatetheboringstuff.com/chapter18/#calibre_link-36)
@@ -98,3 +124,7 @@
     +   Filled
 +   Draw a tree
     +   [With branches](https://scratch.mit.edu/projects/115838437)
+
+### Task 3
+
++   Do whatever you want via using `pyautogui`
