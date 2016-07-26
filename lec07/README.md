@@ -22,6 +22,7 @@
 +   The Interactive Shell
     +   Run `python`
     +   Run IDLE
+    +   Has `>>>`
 +   How to Find Help
     +   Search engine
     +   Stackoverflow
@@ -40,9 +41,20 @@
 ### Python Basics
 
 +   Expression
+    +   Operands and operators
 +   ERRORS ARE OKAY!
 +   Arithmetic operators
-+   Precedence
+    +   `+`
+    +   `-`
+    +   `*`
+    +   `**`
+    +   `/`
+    +   `//`
+    +   `%`
+    +   `()`
++   [Precedence](https://automatetheboringstuff.com/chapter1/#calibre_link-101)
+    +   `()` > `**` > `*` = `/` = `//` = `%` > `+` = `-`
+    +   Special case: Right `**` > Left `**`
 +   (Some) Data types
     +   Integer
     +   Floating-point number
@@ -52,14 +64,28 @@
 +   Storing Values in Variables
     +   Assignment
     +   Variable name
-+   Dissecting Your Program
++   The first program
     +   Comments
+        +   Starting with `#`
+        +   Interpreter will ignore the comments
++   (Some) Functions
+    +   A sequence of instructions
+        +   A mini-program in a program
     +   `print()`
+        +   Display the value between `(` and `)`
+        +   Almost the only thing you can do in the first programming course.
     +   `input()`
+        +   Read a string from the interactive shell.
     +   `len()`
+        +   Calculate the length of a `string`
     +   `str()`
+        +   Convert things into `string`
     +   `int()`
+        +   Convert things into `int`
     +   `float()`
+        +   Convert things into `float`
+    +   `eval()`
+        +   Try `eval(input())`
 
 ### `pyautogui`
 
@@ -102,6 +128,8 @@
     +   Hot key
         +   `pyautogui.hotkey(key1, key2, ..., keys)`
         +   Example: `pyautogui.hotkey('ctrl', 'c')`
+
++   Try `gui = pyautogui` then `gui.moveTo(1,1)`
 
 ### Task 1
 
