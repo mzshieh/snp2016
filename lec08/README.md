@@ -65,6 +65,7 @@
         +   Example: `pyautogui.hotkey('ctrl', 'c')`
 
 +   For those who feel `pyautogui` is too long, please try `gui = pyautogui` then `gui.moveTo(1,1)`
+    +   This might make your code hard to read.
 
 ### Task 0
 
