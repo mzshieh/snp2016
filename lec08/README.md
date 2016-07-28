@@ -168,7 +168,7 @@
 +   `for`
 +   `range()`
 
-## Task 2
+### Task 2
 
 +   Draw a circle
     +   Green
@@ -178,3 +178,8 @@
     +   Filled
 +   Draw a tree
     +   [With branches](https://scratch.mit.edu/projects/115838437)
+
+### Term Project Mock Up
+
++   [Base](term-project-base.sbx)
++   [Normal](term-project-normal.sbx)
