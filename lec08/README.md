@@ -96,7 +96,7 @@
     +   [Example](https://scratch.mit.edu/projects/115904117/)
 
 +   Try to decompose task 1 into instructions
-    +   Mouse actions: move, drag, clcik
+    +   Mouse actions: move, drag, click
     +   Keyboard actions: press, type, hotkey
 
 ### Python Basics (Continued)
