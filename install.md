@@ -2,7 +2,7 @@
 
 請到: https://www.python.org/downloads/release/python-352/
 
-移到最下面 選擇 Windows x86-64 executable installer 或者 Windows x86 executable installe 下載。
+移到最下面 選擇 Windows x86-64 executable installer 或者 Windows x86 executable installer 下載。
 
 雙擊下載回來的檔案。
 
