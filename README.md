@@ -1,7 +1,7 @@
 # NCTU Scratch and Python, 2016 Summer
 
 +   Instructor: [Dr. Min-Zheng Shieh](mailto:mzshieh@nctu.edu.tw) mzshieh@nctu.edu.tw
-+   Teaching Assistants: [Mr. Chun-Kai Chen](mailto:wingemerald@gmail.com), [Mr. Cheng Sun](s2821d3721@gmail.com), [Sherry Chang](lovingkpp@gmail.com)
++   Teaching Assistants: [Mr. Chun-Kai Chen](mailto:wingemerald@gmail.com), [Mr. Cheng Sun](mailto:s2821d3721@gmail.com), [Sherry Chang](mailto:lovingkpp@gmail.com)
 
 ## Course Objectives
 
@@ -13,6 +13,10 @@
 +   Scratch: [Creative Computing Learner Workbook](http://scratched.gse.harvard.edu/guide/files/CreativeComputing20140820_LearnerWorkbook.pdf)
 +   Python: [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) by Al Sweigart.
     +   Some free [lectures](https://www.youtube.com/playlist?list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW) provided by Al Sweigart.
+
+## Tutorial
+
++   [Package installation](install.md)
 
 ## Term Poject
 
