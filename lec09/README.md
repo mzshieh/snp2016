@@ -103,4 +103,5 @@
 ### Task 3
 
 +   Draw [Rokumonsen](https://www.google.com.tw/search?q=Rokumonsen)
-+   Draw Sanjurokumonsen (三十六文錢)
++   Draw Ichimonsen (一文銭)
++   Draw Sanjurokumonsen (三十六文銭)
