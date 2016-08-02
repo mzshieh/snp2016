@@ -3,6 +3,7 @@
 ### Review
 
 +   Package installation is the hardest part in this course
+    +   [Tutorial](../install.md)
 +   Wait is important
     +   You have to wait until the precondition of the next instruction is established.
     +   Precondition and initialization
@@ -60,7 +61,7 @@
     +   `0`
     +   `0.0`
     +   `''`
-+   The above are not the only truthy and falsey values.
++   The are more truthy and falsey values. Not NOW.
 
 ### Flow Control: Selection
 
