@@ -122,3 +122,14 @@
 +   It is complicated. We are not going to cover much about it.
     +   Official [tutorial](https://docs.python.org/3/tutorial/errors.html)
 +   [Example code](lec09-2.py)
+
+### `import`
+
++   `sys`
+    +   `sys.exit()`
++   `random`
+    +   `random.random()`
+    +   `random.randint()`
++   `pyperclip`
+    +   `pyperclip.copy(str)`
+    +   `pyperclip.paste()`
