@@ -68,6 +68,8 @@
 +   Conditions: a boolean expression
 +   Block of code
     +   Don't forget colon `:`
+    +   Indent: spaces and tabs are allowed
+        +   Recommend: 4 spaces
 +   `if`
 +   `else`
 +   `elif`
@@ -83,6 +85,7 @@
 ### Flow Control: Loops
 
 +   `while`
+    +   `ctrl`+`C` to stop your (buggy) program
 +   `break`
 +   `continue`
 +   `for`
@@ -105,3 +108,12 @@
 +   Draw [Rokumonsen](https://www.google.com.tw/search?q=Rokumonsen)
 +   Draw Ichimonsen (一文銭)
 +   Draw Sanjurokumonsen (三十六文銭)
+
+### Practice Question: Chapter 2
+
++   See the [textbook](https://automatetheboringstuff.com/chapter2/)
+
+### Flow Control: Exception
+
++   It is complicated. We are not going to cover much about it.
++   [Example code](lec09-2.py)
