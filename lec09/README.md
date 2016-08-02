@@ -54,7 +54,13 @@
 +   Truthy and falsey values
 +   Truthy values
     +   Non-zero integers
-    +   Non-zero `float`: 
+    +   Non-zero `float`
+    +   Non-empty `string`
++   Falsey values
+    +   `0`
+    +   `0.0`
+    +   `''`
++   The above are not the only truthy and falsey values.
 
 ### Flow Control: Selection
 
