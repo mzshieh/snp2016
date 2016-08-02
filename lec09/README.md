@@ -90,6 +90,10 @@
 +   `continue`
 +   `for`
 +   `range()`
+    +   `range(n)`: `0`, `1`, ..., `n-1`
+    +   `range(start,stop)`: `start`, `start+1`, ..., `stop-1`
+        +   Math: `[start,stop)`
+    +   `range(start,stop,step)`: `start`, `start+step`, ..., `start+k*step` where `k` is the maximum integer such that `start+k*step < stop`.
 +   Nested loops
 
 ### Task 2
@@ -116,4 +120,5 @@
 ### Flow Control: Exception
 
 +   It is complicated. We are not going to cover much about it.
+    +   Official [tutorial](https://docs.python.org/3/tutorial/errors.html)
 +   [Example code](lec09-2.py)
