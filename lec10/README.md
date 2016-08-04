@@ -4,6 +4,8 @@
 
 +   It is complicated. We are not going to cover much about it.
     +   Official [tutorial](https://docs.python.org/3/tutorial/errors.html)
++   Syntax error
++   Exception
 +   [Example code 1](lec10-1.py)
 +   [Example code 2](lec10-2.py)
     +   Error type: printed on the shell
@@ -59,7 +61,10 @@
     +   `range(n)`: `0`, `1`, ..., `n-1`
     +   `range(start,stop)`: `start`, `start+1`, ..., `stop-1`
         +   Math: `[start,stop)`
-    +   `range(start,stop,step)`: `start`, `start+step`, ..., `start+k*step` where `k` is the maximum integer such that `start+k*step < stop`.
+    +   `range(start,stop,step)`
+        +   If `step` is positive: `start`, `start+step`, ..., `start+k*step` where `k` is the maximum integer such that `start+k*step < stop`.
+        +   If `step` is negative: `start`, `start+step`, ..., `start+k*step` where `k` is the maximum integer such that `start+k*step > stop`.
+        +   If `step` is zero: cause a `ValueError`
 +   Nested loops
 +   `ctrl`+`C` to stop your (buggy) program
 +   Practice Question: [Chapter 2]https://automatetheboringstuff.com/chapter2/)
@@ -96,3 +101,14 @@
         +   A local scope cannot access local variables in other scopes.
         +   A local variable and a global variable may have the same name, but only local variable can be accessed.
         +   You may still read the global variable correctly if no local variable is using the same name.
+
+### Guess a number
+
++   Guess a secret number from `0` to `9`
++   `4` chances
+
+### Bulls and Cows
+
++   [Wikipedia](https://en.wikipedia.org/wiki/Bulls_and_Cows)
++   The `i`-th charactor of a string `x`: `x[i]`
+    +   Zero base
