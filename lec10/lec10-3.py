@@ -4,7 +4,7 @@ import math
 
 def offset(direction, step):
     theta = direction * math.acos(-1.0) / 6
-    return -step * math.sin(theta), step * math.cos(theta)
+    return step * math.sin(theta), -step * math.cos(theta)
     
 while True:
     try:
