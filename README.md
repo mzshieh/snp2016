@@ -27,6 +27,7 @@
         +   [Easy](http://www.cs.nctu.edu.tw/~mzshieh/snp16summer/project/loser.html)
         +   [Medium](http://www.cs.nctu.edu.tw/~mzshieh/snp16summer/project/softer.html)
         +   [Hard](http://www.cs.nctu.edu.tw/~mzshieh/snp16summer/project/center_camper.html)
++   [More information](term-project)
 
 ## Grading Policy
 
