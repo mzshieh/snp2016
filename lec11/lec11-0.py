@@ -14,6 +14,8 @@ else:
 
 x, y = pyautogui.position()
 while not (x < 100 and y < 100):
-    pyautogui.moveRel(random.randint(-10,10), random.randint(-10,10))
+    dx = random.randint(-10,10)
+    dy = random.randint(-10,10)
+    pyautogui.moveRel(dx, dy)
     pyautogui.moveRel(0,0,0.5)
     x, y = pyautogui.position()
