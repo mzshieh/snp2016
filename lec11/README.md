@@ -2,6 +2,8 @@
 
 ## Review
 
++   [Slide](snp_lec11.pdf)
+
 ### Flow Control
 
 +   Boolean Values
@@ -27,6 +29,7 @@
     +   Don't forget the colon `:`
     +   Indent: spaces and tabs are allowed
         +   Recommend: 4 spaces
+    +   [Slide]()
 +   `if`
 +   `else`
 +   `elif`
