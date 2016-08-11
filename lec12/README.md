@@ -1,101 +1,44 @@
-## Lecture 11
+## Lecture 12
 
-## Review
+### IoTtalk
 
-+   [Slide](snp_lec11.pdf)
++   Real devices!
++   Take photos
++   Feedback
 
-### Flow Control
+### Debugger
 
-+   Boolean Values
-    +   `True`
-    +   `False`
-    +   `true` and `false` are no good
-+   Boolean operatorssk
-    +   `and`
-    +   `or`
-    +   `not`
-    +   Precedence: `not` > `and` > `or`
-+   Truthy and falsey values
-    +   Truthy values
-        +   Non-zero integers
-        +   Non-zero `float`
-        +   Non-empty `string`
-    +   Falsey values
-        +   `0`
-        +   `0.0`
-        +   `''`
-+   Conditions: a boolean expression
-+   Block of code
-    +   Don't forget the colon `:`
-    +   Indent: spaces and tabs are allowed
-        +   Recommend: 4 spaces
-    +   [Slide]()
-+   `if`
-+   `else`
-+   `elif`
-+   `while`
-+   `break`
-+   `continue`
-+   `for`
-+   `range()`
-    +   `range(n)`: `0`, `1`, ..., `n-1`
-    +   `range(start,stop)`: `start`, `start+1`, ..., `stop-1`
-        +   Math: `[start,stop)`
-    +   `range(start,stop,step)`
-        +   If `step` is positive: `start`, `start+step`, ..., `start+k*step` where `k` is the maximum integer such that `start+k*step < stop`.
-        +   If `step` is negative: `start`, `start+step`, ..., `start+k*step` where `k` is the maximum integer such that `start+k*step > stop`.
-        +   If `step` is zero: cause a `ValueError`
-+   Nested blocks
-+   `ctrl`+`C` to stop your (buggy) program
-+   Practice Question: [Chapter 2](https://automatetheboringstuff.com/chapter2/)
-+   Previous task: Draw [Rokumonsen](https://www.google.com.tw/search?q=Rokumonsen)
++   IDLE
+    +   Debug
+        +   Toggle Debugger
++   [More Information](https://inventwithpython.com/chapter7.html)
 
-### Function
+### Review
 
-+   `def your_function()`
-+   `def your_function_with_parameter(parameter)`
-+   `def your_function_with_parameters(parameter1, parameter2)`
-+   `return`
-    +   The function is terminated either by `return` or by the end of the block.
-    +   `None`: if there is no `return` or just `return` nothing
-    +   Argument
-    +   [Example](lec10-3.py)
-    +   Task: modify the above example to draw a tree like [this](https://scratch.mit.edu/projects/115838437/)
-+   Keyword argument
-    +   `print(some_str, end='')`
-    +   `print(some_str_1, some_str_2, sep=',')`
-+   Please do not overwrite the arguments in your function now.
-+   Scope
-    +   Variables are defined by assignment statements
-    +   Local
-        +   Defined in local scope
-            +   Local scope: `def` statement
-            +   In the same function
-    +   Global
-        +   Defined in global scope
-        +   `global`
-            +   `global some_var`: `some_var` in this function is the global `some_var`
-            +   You must do this if you're going to write global variables
-    +   Principles
-        +   Local variables cannot be used globally.
-        +   A local scope cannot access local variables in other scopes.
-        +   A local variable and a global variable may have the same name, but only local variable can be accessed.
-        +   You may still read the global variable correctly if no local variable is using the same name.
-+   Practice Question: [Chapter 3](https://automatetheboringstuff.com/chapter3/)
-+   Previous task: Draw a tree with branches
-
-### Guess a number
-
-+   Guess a secret number from `0` to `9`
-+   `5` chances
-+   [Code](lec11-1.py)
-
-### Bulls and Cows
-
-+   [Wikipedia](https://en.wikipedia.org/wiki/Bulls_and_Cows)
-+   Task: Implement a 2-digit version
-    +   [Partial code](lec11-2.py)
-+   Task(??): Implement a normal version
++   Download [this](lec12-1.py) first
++   How to complete 2-digit Bull and Cow?
+    +   Prepare the answer
+        +   Method 1: generate a valid answer
+            +   Might be very complex
+        +   Method 2: Repeat generating candidates until a valid one
+            +   Might be time consuming
+        +   Other method?
+    +   Get a valid guess
+        +   What is valid? 
+            +   A guess should be a 2-digit number having different digits.
+                +   Length is 2
+                    +   `if` + `len()`
+                +   Is a number
+                    +   `try` + `except` + `int()`
+                +   In the range [0,99]
+                    +   `if` + `<` + `and`
+                +   Have two different digits
+                    +   `if` + `// 10` + `% 10`
+    +   Compute `A` and `B`
+        +   Implemenmt functions
+        +   Prepare a variable storing the value `ret` to be returned
+    +   End the game if the player is correct
+        +   Add `else` statement to break the `for` loop
 
 ### Lists and Tuples
 
@@ -121,10 +64,29 @@
     +   Try `list('hello')`
     +   Try `tuple('hello')`
 +   `append()`
++   `len()`
 +   `in`
+    +   Operator
+    +   `for` loop
 +   `not in`
 +   Auto boxing & auto unboxing
-    +   [code](lec11-3.py)
-+   Try to simplify or to accomplish
-    +   Bull and cow: 4-digit version
-    +   Draw a tree: more complicated version
+    +   [code](../lec11/lec11-3.py)
++   Task: Write another program to help you win!
+    +   [2-digit version helper](lec12-2.py)
+    +   [4-digit version Game](lec12-3.py)
+
+### More about Lists
+
++   Negative index: `some_list[-1]`
++   Sublists with slices: try `print([0,1,2,3,4][1:3])`
+    +   Inclusive, exclusive
++   Concatenation `+`
++   Replication `*`
++   Delete an element of certain position:`del`
++   `index()`
+    +   try `print([0,1,2,0].index(0))`
++   `insert(pos,val)`: insert `val` to position `pos`
+    +   Let `a = [0,1,2]`. What will happen if we perform `a.insert(1,3)`?
++   `remove(val)`: remove an element of value `val`
+    +   Let `a = [1,0,0,1]`. What will happen if we perform `a.remove(1)`?
++   `sort()`: sort the list ascendingly
