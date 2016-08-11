@@ -57,7 +57,7 @@ def get_int(name):
 
 # maintain a list of candidate
 candidate = []
-# try all 2-digit numbers: all valid number are candidates
+# try all 4-digit numbers: all valid number are candidates
 for i in range(10000):
     if valid(i):
         candidate.append(i)

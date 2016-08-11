@@ -51,8 +51,8 @@ ans = 0
 while not valid(ans):
     ans = random.randint(0,9999)
 
-print('I prepared a secret 2-digit numbers.')
-print('Its two digits are different')
+print('I prepared a secret 4-digit number.')
+print('All its four digits are different')
 print('Guess what it is. You have 10 chances.')
 
 for i in range(10):
@@ -96,4 +96,4 @@ if i == 0: # Find the answer immediately
 elif x == ans: # Find the answer in multiple rounds
     print('You give the correct answer in '+str(i+1)+' rounds')
 else: # reveal the answer
-    print('The answer is %02d' % ans)
+    print('The answer is %04d' % ans)
