@@ -98,6 +98,7 @@
 
 ### `pyautogui`
 
++   [Sample code 1](lec13-1.py)
 +   `screenshot()`
 +   `pixel()`
     +   `(R,G,B)`
@@ -106,6 +107,7 @@
         +   Hold alt, then press print screen
             +   This gives you a picture of window on focus
         +   Use Microsoft Paint to save the screenshot into png file
++   [Sample code 2](lec13-2.py)
 +   `locateOnScreen()`
 +   `locateAllOnScreen()`
 +   Task: Check all boxes!
@@ -113,7 +115,7 @@
     +   Join [Cloud9](https://c9.io/) NCTU Team
         +   Get your own server for term project!
 +   Task: Make your tree drawing program
-    +   Some complex branches: [code](lec13-1.py)
+    +   Some complex branches: [code](lec13-3.py)
     +   More readable: use `def` block
     +   Less dependent on maximizing window
         +   Use screen shot and `locateOnScreen`
