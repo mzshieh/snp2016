@@ -1,7 +1,17 @@
 import api
+import os
+def get_file_content():
+    filepath = os.path.abspath(__file__)
+    return open(filepath).read()
 
+src_content = get_file_content()
 
 def strategy():
+    global src_content
+    if get_file_content() != src_content:
+        print("Hot Reload")
+        os.execvp("python", ("python", __file__,))
+
     state = api.getState()
     myPos = api.getMyPosition()
     mySpeed = api.getMySpeed()
