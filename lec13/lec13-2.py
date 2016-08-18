@@ -2,11 +2,12 @@ import pyautogui, time
 
 pyautogui.FAILSAFE = True
 
-stages = ['choose_tool.png','choose_color.png']
-for stage in stages:
-    loc = None
-    while loc == None:
-        loc = pyautogui.locateOnScreen(stage)
-        time.sleep(0.1)
-    center = pyautogui.center(loc)
+loc = pyautogui.locateOnScreen('box.png')
+while loc == None:
+    time.sleep(0.1)
+    loc = pyautogui.locateOnScreen('box.png')
+
+for loc_i in pyautogui.locateAllOnScreen('box.png')
+    print(loc_i)
+    center = pyautogui.center(loc_i)
     pyautogui.click(center)
