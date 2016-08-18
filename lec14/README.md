@@ -13,7 +13,7 @@
 +   `in`
     +   Operator
     +   `for` loop
-    +   `[i^2 for i in range(i)]`
+    +   `[i**2 for i in range(10)]`
 +   `sort()`: sort the list ascendingly
 +   Mutable things versus immutable things
     +   Variables like boxes: we may put something into it via `=` (assignment).
@@ -54,7 +54,7 @@
 +   We were blind.
 +   [Sample code 1](../lec13/lec13-1.py)
 +   `screenshot()`
-+   `pixel()`
++   `getpixel()`
     +   `(R,G,B)`
 +   How to take a screen shot
     +   Windows: print screen key
