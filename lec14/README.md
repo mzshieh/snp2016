@@ -131,6 +131,7 @@
 +   `split(string)`
     +   try `'<a href="https://automatetheboringstuff.com/">'.split('"')`
 +   `startswith(string)` and `endswith(string)`
+    +   Many URLs start with `http` and end with `html`
 +   `strip()`, `rstrip()`, `lstrip()`
 +   Task: open all URLs which end with `html` in a wikipedia page.
     +   `import webbrowser` then use `webbrowser.open(URL)` to open the page
