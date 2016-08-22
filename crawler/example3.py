@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-res = requests.get('https://tocknicsu.github.io/snp2016/html/3.html')
+res = requests.get('https://tocknicsu.mzshieh.io/snp2016/html/3.html')
 
 soup = BeautifulSoup(res.text, 'lxml')
 
