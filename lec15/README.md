@@ -118,4 +118,6 @@
     +   Try to use `select` to replace `find`
 +   Task: Crawl the [NCTU bulletin system](https://infonews.nctu.edu.tw)
 +   Task: Open five images in browser
+    +   Tag: `img`
+    +   Attribute: `src`
 +   Task: Save five images from some webpage
