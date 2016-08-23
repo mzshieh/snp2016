@@ -96,25 +96,25 @@
 +   `from bs4 import BeautifulSoup` and using `BeautifulSoup` versus `import bs4` and using `bs4.BeautifulSoup`
 +   Parsing HTML: the real webpages
     +   View source!
-+   [Example code 1](../crawler/exmaple1.py)
++   [Example code 1](../crawler/example1.py)
     +   `find(tag)`
         +   Get a `Tag` from the html
         +   Try `type(div)`
-+   [Example code 2](../crawler/exmaple2.py)
++   [Example code 2](../crawler/example2.py)
     +   Get information from `Tag`: use `.get`
     +   `.get` is safer than `[]`
-+   [Example code 4](../crawler/exmaple4.py)
++   [Example code 4](../crawler/example4.py)
     +   `find_all` returns a list
     +   CSS selector: `select(tag)`
         +   Get all `tag`s
         +   Return a list
-+   [Example code 3](../crawler/exmaple3.py)
++   [Example code 3](../crawler/example3.py)
     +   Advanced `find` usage
         +   Accessing attributes
             +   keyword argument
             +   dictionary
     +   Try `soup.select('div.find_by_class')`
-+   [Example code 5](../crawler/exmaple5.py)
++   [Example code 5](../crawler/example5.py)
     +   Try to use `select` to replace `find`
 +   Task: Crawl the [NCTU bulletin system](https://infonews.nctu.edu.tw)
 +   Task: Open five images in browser
