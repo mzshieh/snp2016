@@ -105,7 +105,7 @@
 ### Guess a number
 
 +   Guess a secret number from `0` to `9`
-+   `4` chances
++   `5` chances
 
 ### Bulls and Cows
 

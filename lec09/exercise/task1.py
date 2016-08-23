@@ -2,7 +2,10 @@
 a = input()
 a = float(a)
 
+# Idea
 # step 1: test if a is negative
+# Negative: int(a) >= a
+# Positive: int(a) <= a
 
 if (a < 0): # a is negative
     if (a-int(a) == -0.5): # 5 to even

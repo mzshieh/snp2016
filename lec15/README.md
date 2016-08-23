@@ -64,7 +64,7 @@
 ### String processing
 
 +   Escape Characters: [Table](https://automatetheboringstuff.com/chapter6/#calibre_link-40)
-+   Multiline Strings: triple quotes ```   
++   Multiline Strings: triple quotes `'''`   
 +   Indexing:
     +   `print('123'[0])`
     +   `print('123'[-1])`
