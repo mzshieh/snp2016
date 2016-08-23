@@ -58,7 +58,8 @@
             +   `the_file.write(some_str)`: write a string
     +   `for chunk in result.iter_content(102400):` to iterate 102400-byte chunks of `result`
     +   Remember to close the file: `the_file.close()`
-    +   Sample [code](lec14-1.py)
+    +   Sample [code](../lec14/lec14-1.py)
+    +   Reference: [HTTP](https://chino.taipei/note-%E5%B8%B8%E8%A6%8B%E7%9A%84HTTP-Method%E7%9A%84%E4%B8%8D%E5%90%8C%E6%80%A7%E8%B3%AA%E5%88%86%E6%9E%90%EF%BC%9AGet-Post%E5%92%8C%E5%85%B6%E4%BB%964%E7%A8%AEMethod%E7%9A%84%E5%B7%AE%E5%88%A5/)
 
 ### String processing
 
@@ -92,3 +93,29 @@
 
 ### Beautiful soup
 
++   `from bs4 import BeautifulSoup` and using `BeautifulSoup` versus `import bs4` and using `bs4.BeautifulSoup`
++   Parsing HTML: the real webpages
+    +   View source!
++   [Example code 1](../crawler/exmaple1.py)
+    +   `find(tag)`
+        +   Get a `Tag` from the html
+        +   Try `type(div)`
++   [Example code 2](../crawler/exmaple2.py)
+    +   Get information from `Tag`: use `.get`
+    +   `.get` is safer than `[]`
++   [Example code 4](../crawler/exmaple4.py)
+    +   `find_all` returns a list
+    +   CSS selector: `select(tag)`
+        +   Get all `tag`s
+        +   Return a list
++   [Example code 3](../crawler/exmaple3.py)
+    +   Advanced `find` usage
+        +   Accessing attributes
+            +   keyword argument
+            +   dictionary
+    +   Try `soup.select('div.find_by_class')`
++   [Example code 5](../crawler/exmaple5.py)
+    +   Try to use `select` to replace `find`
++   Task: Crawl the [NCTU bulletin system](https://infonews.nctu.edu.tw)
++   Task: Open five images in browser
++   Task: Save five images from some webpage
