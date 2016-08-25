@@ -20,7 +20,7 @@
     ![](../images/c9-2.png)  
 5. 按 _綠色的 +_ 按鈕然後選擇 _New Terminal_（見下圖），開啟新 Terminal(黑盒子)  
     ![](../images/c9-3.png)  
-6. 在 Terminal 輸入 `sudo ./init-c9.sh`（如下圖）並按下 enter 執行。其中已包含 `sudo pip3 install -r requirements.txt` 把 _hero.py_ 所需套件裝好。  
+6. 在 Terminal 輸入 `./init-c9.sh`（如下圖）並按下 enter 執行。其中已包含 `sudo pip3 install -r requirements.txt` 把 _hero.py_ 所需套件裝好。  
     ![](../images/c9-4.png)  
 
 
@@ -29,9 +29,8 @@
 ![](../images/c9-5.png)  
 打開 _hero.py_ 後就可以開始 Coding 了！  
 有以下方法可以執行 _hero.py_：  
-1. 按鍵盤上的 `F5` 鍵（Mac 請按 `fn + F5`）  
-2. 按下畫面中最上方寫有 _run_ 的綠色按鈕  
-3. 開啟 Terminal(黑盒子) 並輸入 `python3 hero.py`  
+1. 按下畫面中最上方寫有 _run_ 的綠色按鈕（之後就可以使用鍵盤上的 `F5` 鍵執行（Mac 請按 `fn + F5`））  
+2. 開啟 Terminal(黑盒子) 並輸入 `python3 hero.py`  
 
 若你用方法 1 或 2 執行，應該會看到以下 SyntaxError    
 ![](../images/c9-6.png)  
