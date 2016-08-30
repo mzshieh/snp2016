@@ -62,3 +62,6 @@
     +   Attribute: `src`
 +   Task: Save five images from some webpage
 +   Task: Crawl the [Yahoo Sport News](https://tw.news.yahoo.com/sports/)
+    +   找出五條新聞，並選出報導中的第一句話。
+        +   Hint: `<p class="first">`
+    +   Bonus: 擷取報導附圖。
