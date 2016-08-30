@@ -9,10 +9,10 @@ def dump(result, name, **arg):
             name = arg['dir']+'/'+name
         except:
             print('unable to use '+arg['dir'])
-        file = open(name,'wb')
-        for chunk in result.iter_content(102400):
-            file.write(chunk)
-        file.close()
+    file = open(name,'wb')
+    for chunk in result.iter_content(102400):
+        file.write(chunk)
+    file.close()
 
 # get
 res = requests.get('https://tw.news.yahoo.com/sports/')
